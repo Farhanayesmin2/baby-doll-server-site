@@ -1,0 +1,107 @@
+{
+  "babyDoll": [
+    {
+      "id": "baby1",
+      "picture": "https://i.ibb.co/VSLpxwx/42e8c30d9b9838a32fef52f21fddbed3.jpg",
+      "name": "Sweetie Pie",
+      "price": 29.99,
+      "rating": 4.5,
+      "description": "Sweetie Pie is an adorable baby doll with a soft body and lifelike features. She comes with a cute outfit and a pacifier.",
+      "sellerName": "ABC Toys",
+      "sellerEmail": "abc.toys@example.com",
+      "availableQuantity": 10
+    },
+    {
+      "id": "baby2",
+      "picture": "https://i.ibb.co/vvs0p5f/28ae8faef95aeabff4734b6f3e86dff2.jpg",
+      "name": "Cuddly Cutie",
+      "price": 39.99,
+      "rating": 4.8,
+      "description": "Cuddly Cutie is a huggable baby doll with realistic eyes and movable arms and legs. She comes with a diaper and a bottle.",
+      "sellerName": "XYZ Toys",
+      "sellerEmail": "xyz.toys@example.com",
+      "availableQuantity": 5
+    },
+    {
+      "id": "baby3",
+      "picture": "https://i.ibb.co/XZXRtZf/e70d3ccf4dd0ad8475dd60e0a09e063b.jpg",
+      "name": "Tiny Treasures",
+      "price": 24.99,
+      "rating": 4.2,
+      "description": "Tiny Treasures is a small-sized baby doll with a soft body and a beautiful dress. She comes with a matching headband.",
+      "sellerName": "123 Toys",
+      "sellerEmail": "123.toys@example.com",
+      "availableQuantity": 8
+    }
+  ],
+  "barbieDolls": [
+    {
+      "id": "barbie1",
+      "picture": "https://i.ibb.co/2gqQHvH/270b63bd55427c307b8a1eb37087b35b.jpg",
+      "name": "Fashionista Barbie",
+      "price": 19.99,
+      "rating": 4.6,
+      "description": "Fashionista Barbie is a stylish doll with a wide range of trendy outfits and accessories. She comes with multiple fashion pieces for mix-and-match fun.",
+      "sellerName": "Barbie Paradise",
+      "sellerEmail": "barbie.paradise@example.com",
+      "availableQuantity": 12
+    },
+    {
+      "id": "barbie2",
+      "picture": "https://i.ibb.co/vj5Y7bw/a269fa40a990cc52c87b88398041a961.jpg",
+      "name": "Dreamhouse Barbie",
+      "price": 49.99,
+      "rating": 4.9,
+      "description": "Dreamhouse Barbie is a glamorous doll that comes with her own dream house. The house features multiple rooms and interactive accessories for imaginative play.",
+      "sellerName": "Dreamhouse Toys",
+      "sellerEmail": "dreamhouse.toys@example.com",
+      "availableQuantity": 3
+    },
+    {
+      "id": "barbie3",
+      "picture": "https://i.ibb.co/DbQLX7G/bb3e91b835e9247422c1829ea69b6153.jpg",
+      "name": "Princess Barbie",
+      "price": 14.99,
+      "rating": 4.3,
+      "description": "Princess Barbie is a regal doll dressed in a beautiful princess gown. She comes with a tiara and a magical wand for enchanting adventures.",
+      "sellerName": "Magical Toys",
+      "sellerEmail": "magical.toys@example.com",
+      "availableQuantity": 6
+    }
+  ],
+  "latiYellowDolls": [
+    {
+      "id": "lati1",
+      "picture": "https://i.ibb.co/3TbH0n4/10da207ff5e2fa71f4c6175a863c686c.jpg",
+      "name": "Sunny Sprite",
+      "price": 59.99,
+      "rating": 4.7,
+      "description": "Sunny Sprite is a charming Lati Yellow doll with a bright personality. She has a sunny yellow outfit and a whimsical hat.",
+      "sellerName": "Sunshine Dolls",
+      "sellerEmail": "sunshine.dolls@example.com",
+      "availableQuantity": 2
+    },
+    {
+      "id": "lati2",
+      "picture": "https://i.ibb.co/RvrtJL0/f583abbeb23f6d3a57973268162030de.jpg",
+      "name": "Rosy Blossom",
+      "price": 49.99,
+      "rating": 4.4,
+      "description": "Rosy Blossom is a delightful Lati Yellow doll with a blooming personality. She wears a lovely floral dress and carries a bouquet of flowers.",
+      "sellerName": "Flower Dolls",
+      "sellerEmail": "flower.dolls@example.com",
+      "availableQuantity": 7
+    },
+    {
+      "id": "lati3",
+      "picture": "https://i.ibb.co/pL3YSs4/4fe74335c77aff9a3d82405fe40f49fc.jpg",
+      "name": "Misty Moonbeam",
+      "price": 54.99,
+      "rating": 4.9,
+      "description": "Misty Moonbeam is an enchanting Lati Yellow doll with a dreamy personality. She wears a shimmering moon-themed outfit and carries a magical wand.",
+      "sellerName": "Moonlight Toys",
+      "sellerEmail": "moonlight.toys@example.com",
+      "availableQuantity": 4
+    }
+  ]
+}
