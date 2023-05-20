@@ -40,7 +40,7 @@ async function run() {
 // Get all toys data
     app.get("/alltoys", async (req, res) => {
       const query = {};
-      const cursor = babyDollCategories.find(query);
+      const cursor = babyDollCategories.find(query).limit(20);
       const category = await cursor.toArray();
       res.send(category);
     });
