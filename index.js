@@ -45,6 +45,13 @@ async function run() {
       res.send(category);
     });
 
+    // Post the data 
+      app.post('/alltoys', async (req, res) => {
+      const addtoys = req.body;
+      const results = await babyDollCategories.insertOne(addtoys);
+      res.send(results);
+} )
+
 
 
 
