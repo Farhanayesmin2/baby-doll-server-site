@@ -12,7 +12,6 @@ app.use(express.json());
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.gojv5gq.mongodb.net/?retryWrites=true&w=majority`;
 
-console.log(uri);
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
@@ -29,13 +28,21 @@ async function run() {
       await client.connect();
       
  const babyDollCollection = client.db("dollCollection").collection("babydolls");
+ const babyDollCategories = client.db("dollCollection").collection("alltoys");
 
-// Get all services data
+// Get all sub-categories data data
     app.get("/home", async (req, res) => {
       const query = {};
       const cursor = babyDollCollection.find(query);
       const babydolls = await cursor.toArray();
       res.send(babydolls);
+    });
+// Get all toys data
+    app.get("/alltoys", async (req, res) => {
+      const query = {};
+      const cursor = babyDollCategories.find(query);
+      const category = await cursor.toArray();
+      res.send(category);
     });
 
 
