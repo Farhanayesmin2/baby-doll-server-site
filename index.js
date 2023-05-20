@@ -44,6 +44,14 @@ async function run() {
       const category = await cursor.toArray();
       res.send(category);
     });
+// Get  toys data
+    app.get("/mytoys", async (req, res) => {
+       const email = req.query.email; 
+      const query = {sellerEmail: email};
+      const cursor = babyDollCategories.find(query)
+      const category = await cursor.toArray();
+      res.send(category);
+    });
 
     // Post the data 
       app.post('/alltoys', async (req, res) => {
