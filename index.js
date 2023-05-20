@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion,ObjectId} = require('mongodb');
 const port = process.env.PORT || 5000;
 
 //This is very very important to connect database for secure pass and user
@@ -52,6 +52,17 @@ async function run() {
       const category = await cursor.toArray();
       res.send(category);
     });
+// Get  toys delete data
+   app.delete('/mytoys/:id', async(req, res) =>{
+        const id = req.params.id;
+        console.log('please delete from database', id);
+        const query = { _id: new ObjectId(id)}  
+        const result = await babyDollCategories.deleteOne(query);
+        res.send(result);
+    })
+
+    
+
 
     // Post the data 
       app.post('/alltoys', async (req, res) => {
